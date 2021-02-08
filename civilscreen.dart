@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:rico/cnet.dart';
+
 import 'cnet.dart';
 
-class Subjectcse extends StatelessWidget {
+class Subjectcivil extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController( length: 3,
       child:Scaffold(
-        appBar: AppBar(title: Text("C.S.E"),
+        appBar: AppBar(title: Text("Civil"),
         backgroundColor: Colors.deepOrange,
         bottom: TabBar( 
           
@@ -77,7 +77,7 @@ class Seme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Engineering Mathmathics III",style: TextStyle(
+                      child: Text("Fuild Mechanics-I",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25,
                                 fontWeight: FontWeight.bold, 
@@ -99,7 +99,7 @@ class Seme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Computer Graphics",style: TextStyle(
+                      child: Text("Architectual plannning & Design of Building",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -119,7 +119,7 @@ class Seme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Advanced Data Struture",style: TextStyle(
+                      child: Text("Structual Analysis-I",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -139,28 +139,7 @@ class Seme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Microprocessor",style: TextStyle(
-                                fontFamily: 'AirbnbCerealBold',
-                                fontSize: 25, 
-                                fontWeight: FontWeight.bold, 
-                                ),
-                      ),
-                    ),
-                     ), 
-                  ),
-              ),
-
-
-
-              Container( 
-                child: Card(
-                  elevation: 15, shape: RoundedRectangleBorder(
-                    borderRadius:BorderRadius.circular(20),),
-                    shadowColor: Colors.blue,
-                     child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
-                    child:  Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text("Principles of Programming Languages",style: TextStyle(
+                      child: Text("Engineering Geology",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -181,7 +160,7 @@ class Seme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Discrete Mathemathics",style: TextStyle(
+                      child: Text("Concrete Technology",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -202,7 +181,7 @@ class Seme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Digital Electronics and Logic Design",style: TextStyle(
+                      child: Text("Building Technology and Material",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -223,7 +202,28 @@ class Seme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Data StructureAnd and Algorithum",style: TextStyle(
+                      child: Text("Engineering Mathmathics-III",style: TextStyle(
+                                fontFamily: 'AirbnbCerealBold',
+                                fontSize: 25, 
+                                fontWeight: FontWeight.bold, 
+                                ),
+                      ),
+                    ),
+                     ), 
+                  ),
+              ),
+
+
+
+              Container( 
+                child: Card(
+                  elevation: 15, shape: RoundedRectangleBorder(
+                    borderRadius:BorderRadius.circular(20),),
+                    shadowColor: Colors.blue,
+                     child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
+                    child:  Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text("Surveying",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -243,7 +243,7 @@ class Seme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Computer Organization and Architecture",style: TextStyle(
+                      child: Text("Strenght of Matherial",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -263,7 +263,7 @@ class Seme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Object Orientad Prohramming",style: TextStyle(
+                      child: Text("Geotechnical Engineering",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -303,7 +303,7 @@ class Teme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Design & Analysis of Algorithum",style: TextStyle(
+                      child: Text("Adavanced Surveying",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25,
                                 fontWeight: FontWeight.bold, 
@@ -325,7 +325,7 @@ class Teme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Systems prog & Operating System",style: TextStyle(
+                      child: Text("Project Mgt & Engg Economics",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -345,7 +345,7 @@ class Teme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Embedded System & Internet Things",style: TextStyle(
+                      child: Text("Fondation Engineering",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -365,28 +365,7 @@ class Teme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Software Modelling & Design",style: TextStyle(
-                                fontFamily: 'AirbnbCerealBold',
-                                fontSize: 25, 
-                                fontWeight: FontWeight.bold, 
-                                ),
-                      ),
-                    ),
-                     ), 
-                  ),
-              ),
-
-
-
-              Container( 
-                child: Card(
-                  elevation: 15, shape: RoundedRectangleBorder(
-                    borderRadius:BorderRadius.circular(20),),
-                    shadowColor: Colors.blue,
-                     child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
-                    child:  Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text("Web technology",style: TextStyle(
+                      child: Text("Structual Design-II",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -407,7 +386,7 @@ class Teme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Theroy of Computation",style: TextStyle(
+                      child: Text("Enviromental Engineering-I",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -428,7 +407,7 @@ class Teme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Database Management Systems",style: TextStyle(
+                      child: Text("Hydrology & Water resoruces",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -449,7 +428,28 @@ class Teme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Software Engg & project Mgt",style: TextStyle(
+                      child: Text("Infrasture Engg & Construction Tech",style: TextStyle(
+                                fontFamily: 'AirbnbCerealBold',
+                                fontSize: 25, 
+                                fontWeight: FontWeight.bold, 
+                                ),
+                      ),
+                    ),
+                     ), 
+                  ),
+              ),
+
+
+
+              Container( 
+                child: Card(
+                  elevation: 15, shape: RoundedRectangleBorder(
+                    borderRadius:BorderRadius.circular(20),),
+                    shadowColor: Colors.blue,
+                     child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
+                    child:  Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text("Structural Design-I",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -469,7 +469,7 @@ class Teme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Information System & Engg Ecomics",style: TextStyle(
+                      child: Text("Structural Design-II",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -489,7 +489,7 @@ class Teme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Computer Network",style: TextStyle(
+                      child: Text("Fuild Mechanics-II",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -530,7 +530,7 @@ class Beme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Machine Learning",style: TextStyle(
+                      child: Text("Dams & hydralics Structure",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25,
                                 fontWeight: FontWeight.bold, 
@@ -552,7 +552,7 @@ class Beme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Information & Cyber Security",style: TextStyle(
+                      child: Text("Quantity Sur. Cont & tenders",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -572,7 +572,7 @@ class Beme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Embedded & Rto System",style: TextStyle(
+                      child: Text("Air pollution & Control",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -592,28 +592,7 @@ class Beme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Cloud Computing",style: TextStyle(
-                                fontFamily: 'AirbnbCerealBold',
-                                fontSize: 25, 
-                                fontWeight: FontWeight.bold, 
-                                ),
-                      ),
-                    ),
-                     ), 
-                  ),
-              ),
-
-
-
-              Container( 
-                child: Card(
-                  elevation: 15, shape: RoundedRectangleBorder(
-                    borderRadius:BorderRadius.circular(20),),
-                    shadowColor: Colors.blue,
-                     child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
-                    child:  Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text("High performance Computing",style: TextStyle(
+                      child: Text("Construction Mgt",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -634,7 +613,7 @@ class Beme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Artificial Intillegence & Robotics ",style: TextStyle(
+                      child: Text("Enviromental Engg-II",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -655,7 +634,7 @@ class Beme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Data Analytics",style: TextStyle(
+                      child: Text("Transportation Engineering",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -676,7 +655,28 @@ class Beme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Data Mining & Warehousing",style: TextStyle(
+                      child: Text("Structural Design & Drawing-III",style: TextStyle(
+                                fontFamily: 'AirbnbCerealBold',
+                                fontSize: 25, 
+                                fontWeight: FontWeight.bold, 
+                                ),
+                      ),
+                    ),
+                     ), 
+                  ),
+              ),
+
+
+
+              Container( 
+                child: Card(
+                  elevation: 15, shape: RoundedRectangleBorder(
+                    borderRadius:BorderRadius.circular(20),),
+                    shadowColor: Colors.blue,
+                     child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
+                    child:  Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text("Advanced Concrete Technology",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -696,7 +696,7 @@ class Beme extends StatelessWidget {
                      child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("software testing",style: TextStyle(
+                      child: Text("TOM & MIS in civil Engg",style: TextStyle(
                                 fontFamily: 'AirbnbCerealBold',
                                 fontSize: 25, 
                                 fontWeight: FontWeight.bold, 
@@ -708,24 +708,7 @@ class Beme extends StatelessWidget {
               ),
 
              
-               Container( 
-                child: Card(
-                  elevation: 15, shape: RoundedRectangleBorder(
-                    borderRadius:BorderRadius.circular(20),),
-                    shadowColor: Colors.blue,
-                     child: InkWell(  onTap: () {Navigator.push( context, MaterialPageRoute(builder: (context)=> Cnet()));}, 
-                    child:  Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text("Theroy of Computation",style: TextStyle(
-                                fontFamily: 'AirbnbCerealBold',
-                                fontSize: 25, 
-                                fontWeight: FontWeight.bold, 
-                                ),
-                      ),
-                    ),
-                     ), 
-                  ),
-              ),
+              
 
 
         ]    

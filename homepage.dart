@@ -1,7 +1,15 @@
 import 'package:flutter/material.dart';
+// ignore: unused_import
 import 'package:rico/main.dart';
 
+import 'EEscreen.dart';
+import 'Entcscreen.dart';
+import 'civilscreen.dart';
 import 'csescreen1.dart';
+import 'fescreen.dart';
+import 'intruscreen.dart';
+import 'itscreen.dart';
+import 'mescreen.dart';
 
 class Homepage extends StatelessWidget {
   get child => null;
@@ -147,6 +155,8 @@ class Homepage extends StatelessWidget {
                             fit: BoxFit.cover,
                          ),
                        ),
+                         GestureDetector( onTap:() async  { Navigator.push( context, MaterialPageRoute(builder: (context)=> Subjectentc()));
+                    }),
                        Text(
                          "En.T.C", style: TextStyle(
                         fontFamily: 'AirbnbCerealBold',
@@ -175,6 +185,8 @@ class Homepage extends StatelessWidget {
                             fit: BoxFit.cover,
                          ),
                        ),
+                         GestureDetector( onTap:() async  { Navigator.push( context, MaterialPageRoute(builder: (context)=> Subjectit()));
+                    }),
                        Text(
                          "IT", style: TextStyle(
                         fontFamily: 'AirbnbCerealBold',
@@ -203,6 +215,8 @@ class Homepage extends StatelessWidget {
                             fit: BoxFit.cover,
                          ),
                        ),
+                         GestureDetector( onTap:() async  { Navigator.push( context, MaterialPageRoute(builder: (context)=> Subjectee()));
+                    }),
                        Text(
                          "EE", style: TextStyle(
                         fontFamily: 'AirbnbCerealBold',
@@ -230,6 +244,8 @@ class Homepage extends StatelessWidget {
                             fit: BoxFit.cover,
                          ),
                        ),
+                         GestureDetector( onTap:() async  { Navigator.push( context, MaterialPageRoute(builder: (context)=> Subjectistr()));
+                    }),
                        Text(
                          "Intrumental", style: TextStyle(
                         fontFamily: 'AirbnbCerealBold',
