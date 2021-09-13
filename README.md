@@ -1,4 +1,4 @@
-# rico
+# Buddy
 
 A new Flutter application.
 
